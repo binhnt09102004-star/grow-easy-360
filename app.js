@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initPreorderModal();
   initMobileNav();
   initVideoReviews();
+  initFloatingMascot();
 });
 
 /* ==========================================================================
@@ -539,3 +540,56 @@ function initVideoReviews() {
   });
 }
 
+
+
+/* ==========================================================================
+   10. Floating Bouncing Mascot Interaction
+   ========================================================================== */
+function initFloatingMascot() {
+  const container = document.getElementById('floatingMascot');
+  const bubble = document.getElementById('mascotBubble');
+  const img = document.getElementById('mascotImg');
+
+  if (!container || !bubble || !img) return;
+
+  const messages = [
+    '새벽 10분의 여유! 🌱',
+    '사전예약 20% 할인 중! 🎉',
+    '폭신폭신 숙면 파트너! 💫',
+    '우리 아이 꿀잠 케어 🌙',
+    '360° 인체공학 핏 ✨',
+    '클릭해주셔서 감사해요! 💖'
+  ];
+
+  let currentMsgIdx = 0;
+  let isSpinning = false;
+
+  // Click mascot to spin and switch cute message
+  container.addEventListener('click', (e) => {
+    currentMsgIdx = (currentMsgIdx + 1) % messages.length;
+    bubble.textContent = messages[currentMsgIdx];
+
+    // Trigger bubble pulse
+    bubble.style.animation = 'none';
+    void bubble.offsetWidth;
+    bubble.style.animation = 'bubbleFloat 2.4s ease-in-out infinite';
+
+    // Mascot 360 jump celebrate spin
+    if (!isSpinning) {
+      isSpinning = true;
+      img.classList.add('spin-celebrate');
+      setTimeout(() => {
+        img.classList.remove('spin-celebrate');
+        isSpinning = false;
+      }, 800);
+    }
+  });
+
+  // Cycle speech bubble automatically every 5 seconds if not hovered
+  setInterval(() => {
+    if (!container.matches(':hover')) {
+      currentMsgIdx = (currentMsgIdx + 1) % messages.length;
+      bubble.textContent = messages[currentMsgIdx];
+    }
+  }, 5000);
+}
