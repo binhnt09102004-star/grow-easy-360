@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GROW-EASY 360° | 제품 상세페이지 (PRODUCT)</title>
+  <meta name="description"
+    content="작아져서 버리던 옷은 이제 그만. 성장에 맞춰 늘어나고 10초 만에 기저귀를 교체하는 모듈러 올인원 GROW-EASY 360° 상세 사양 및 7대 핵심 섹션 안내.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+</head>
+
+<body>
+
+  <!-- Site Header (GNB) -->
+  <header class="site-header" id="mainHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" id="brandLogoProduct">
+        <svg class="logo-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+        </svg>
+        <span>GROW-EASY</span>
+        <span class="brand-badge">360°</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="primaryNav">
+          <li><a href="index.html" class="nav-link" id="navHome">HOME</a></li>
+          <li><a href="product.html" class="nav-link active" id="navProduct">PRODUCT</a></li>
+          <li><a href="about.html" class="nav-link" id="navAbout">ABOUT</a></li>
+          <li><a href="contact.html" class="nav-link" id="navContact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="btn-primary btn-open-preorder" id="gnbPreorderBtn" data-tier="SMART">
+          사전예약
+        </button>
+        <button type="button" class="mobile-toggle" id="mobileMenuBtn" aria-label="메뉴 열기">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         SECTION 1: HERO
+         ========================================================================== -->
+    <section class="product-hero-section" id="section1Hero">
+      <div class="container">
+        <div class="hero-split">
+          <!-- Left Info -->
+          <div class="hero-content">
+            <div class="hero-tag">
+              <span class="tag-dot"></span>
+              영유아 모듈러 룸웨어
+            </div>
+            <h1 class="hero-headline">
+              아이와 함께 자라는,<br>
+              <span class="highlight">GROW-EASY 360°</span>
+            </h1>
+            <p class="hero-subcopy">
+              3단계 맞춤 성장과 10초 퀵 오픈으로 완성하는 편안한 새벽.
+            </p>
+
+            <div class="hero-action-bar">
+              <div class="hero-price-tag">
+                <span class="label">얼리버드</span>
+                <span class="amount">59,000원~</span>
+              </div>
+              <div class="hero-cta-group">
+                <button type="button" class="btn-primary btn-open-preorder" id="btnStartComfortParenting"
+                  data-tier="SMART">
+                  10초 편한 육아 시작하기
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <a href="#section5Specs" class="btn-secondary">
+                  스펙 테이블
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-trust-metrics-strip">
+              <span class="trust-metric-pill"><strong>3단</strong> 성장 확장</span>
+              <span class="metric-divider">·</span>
+              <span class="trust-metric-pill"><strong>10초</strong> 퀵 체결</span>
+              <span class="metric-divider">·</span>
+              <span class="trust-metric-pill"><strong>3색</strong> 체온 감온</span>
+              <span class="metric-divider">·</span>
+              <span class="trust-metric-pill"><strong>사계절</strong> 롤업</span>
+            </div>
+          </div>
+
+          <!-- Right Visual: 360 Viewer -->
+          <div class="hero-visual">
+            <div class="interactive-360-viewer" id="productTurntableViewer">
+              <div class="turntable-header">
+                <span class="turntable-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                    <circle cx="12" cy="12" r="10" />
+                  </svg>
+                  360° INTERACTIVE VIEW
+                </span>
+                <span style="font-size:0.75rem; color:var(--text-muted);">좌우 드래그 또는 버튼 클릭</span>
+              </div>
+
+              <div class="turntable-frame-container" id="turntableFrame">
+                <img id="turntableImg" class="turntable-img" src="assets/grow-easy-front.png"
+                  alt="GROW-EASY 360° 모듈러 올인원 룸웨어 정면 뷰">
+
+                <!-- Hotspot 1: Smart Thermal Zone -->
+                <div class="hotspot-marker" data-type="chest-thermal" style="top: 36%; left: 56%;" id="hsThermal">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z" />
+                  </svg>
+                  <div class="hotspot-tooltip">
+                    <strong>가슴 감온 패치</strong><br>3색 체온 알림 존
+                  </div>
+                </div>
+
+                <!-- Hotspot 2: Quick Diaper Zone -->
+                <div class="hotspot-marker" data-type="diaper-zone" style="top: 68%; left: 50%;" id="hsDiaper">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                  </svg>
+                  <div class="hotspot-tooltip">
+                    <strong>10초 기저귀 존</strong><br>원터치 마그네틱 개방
+                  </div>
+                </div>
+
+                <!-- Hotspot 3: Modular Sleeve -->
+                <div class="hotspot-marker" data-type="modular-sleeve" style="top: 52%; left: 32%;" id="hsSleeve">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="21 8 21 21 3 21 3 8" />
+                    <rect x="1" y="3" width="22" height="5" />
+                  </svg>
+                  <div class="hotspot-tooltip">
+                    <strong>사계절 모듈러 소매</strong><br>스냅 롤업 고정
+                  </div>
+                </div>
+              </div>
+
+              <div class="angle-selector" id="angleSelector">
+                <button type="button" class="angle-btn active" data-angle="0">0° 정면</button>
+                <button type="button" class="angle-btn" data-angle="90">90° 우측</button>
+                <button type="button" class="angle-btn" data-angle="180">180° 후면</button>
+                <button type="button" class="angle-btn" data-angle="270">270° 좌측</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 2: PAIN POINT
+         ========================================================================== -->
+    <section class="section-pain-point" id="section2PainPoint" style="background: rgba(244, 246, 244, 0.45);">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge">Section 2 · Pain Point</span>
+          <h2 class="section-title">부모를 가장 지치게 하는 3가지 육아 고충</h2>
+          <p class="section-subtitle center-block">
+            매일 밤, 부모가 겪는 반복된 불편을 덜어내기 위해 질문을 던졌습니다.
+          </p>
+        </div>
+
+        <div class="pain-points-grid">
+          <!-- Card 01 -->
+          <div class="pain-card">
+            <span class="pain-number">01</span>
+            <span class="feature-tag" style="margin-bottom:8px;">Card 01</span>
+            <h3 class="pain-card-title">빠른 성장과 낭비</h3>
+            <p class="pain-card-desc">
+              3~4개월마다 작아져 버려지는 옷과 반복되는 구매 비용 부담. 아이의 성장 속도를 따라가지 못해 멀쩡한 옷들이 쉽게 낭비됩니다.
+            </p>
+          </div>
+
+          <!-- Card 02 -->
+          <div class="pain-card">
+            <span class="pain-number">02</span>
+            <span class="feature-tag" style="margin-bottom:8px;">Card 02</span>
+            <h3 class="pain-card-title">새벽 기저귀 전쟁</h3>
+            <p class="pain-card-desc">
+              밤중 수유 시 옷 전체를 벗기느라 아기는 깨고 부모는 만성 피로 누적. 수십 개의 똑딱이 단추는 어두운 새벽 큰 스트레스가 됩니다.
+            </p>
+          </div>
+
+          <!-- Card 03 -->
+          <div class="pain-card">
+            <span class="pain-number">03</span>
+            <span class="feature-tag" style="margin-bottom:8px;">Card 03</span>
+            <h3 class="pain-card-title">체온 확인의 불안</h3>
+            <p class="pain-card-desc">
+              태열과 미열을 즉각 확인하기 어려워 겪는 부모의 불안감. 아기가 아프지 않을까 밤새 수시로 잠을 설치며 체온을 걱정해야 합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 3: SOLUTION
+         ========================================================================== -->
+    <section class="section-solution" id="section3Solution">
+      <div class="container">
+        <div class="solution-box">
+          <div class="solution-grid">
+            <div>
+              <span class="section-badge">Section 3 · Solution</span>
+              <h2 class="section-title" style="margin-bottom:16px;">
+                "기능이 많은 옷이 아닌,<br>부모의 실제 문제를 해결하는 옷"
+              </h2>
+              <p class="section-subtitle" style="max-width:100%;">
+                성장에 따라 조절되는 패널, 10초 마그네틱 개방, 3색 감온 라벨, 사계절 변형 소매를 하나로 통합.
+              </p>
+
+              <div class="solution-pills-list">
+                <div class="solution-pill">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                  </svg>
+                  <span>성장에 맞춘 3단계 패널</span>
+                </div>
+                <div class="solution-pill">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                  </svg>
+                  <span>10초 마그네틱 개방</span>
+                </div>
+                <div class="solution-pill">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 6v6l4 2" />
+                  </svg>
+                  <span>3색 실시간 감온 라벨</span>
+                </div>
+                <div class="solution-pill">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
+                  </svg>
+                  <span>사계절 변형 모듈러 소매</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Visual Badge Card -->
+            <div
+              style="background:white; border-radius:24px; padding:32px; border:1px solid var(--sage-200); text-align:center; box-shadow:var(--shadow-md);">
+              <div
+                style="width:72px; height:72px; border-radius:50%; background:var(--sage-100); color:var(--sage-700); display:inline-flex; align-items:center; justify-content:center; margin-bottom:16px;">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
+              <h4 style="font-size:1.25rem; font-weight:700; color:var(--sage-900); margin-bottom:8px;">All-in-One
+                Modular System</h4>
+              <p style="font-size:0.9rem; color:var(--text-secondary); line-height:1.6;">
+                단 한 벌로 6개월부터 18개월까지.<br>
+                아이에게는 자유로운 움직임을,<br>
+                부모에게는 깊은 밤 10분의 온전한 휴식을 선사합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 4: USP & 4 FEATURES (Card Grid 2x2)
+         ========================================================================== -->
+    <section class="section-usp" id="section4USP">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge">Section 4 · USP & 4 Features</span>
+          <h2 class="section-title">디테일이 완성하는 압도적 편안함</h2>
+          <p class="section-subtitle center-block">
+            Card Grid 2x2로 살펴보는 GROW-EASY 360°의 차별화된 핵심 기술력
+          </p>
+        </div>
+
+        <div class="features-grid-2x2">
+          <!-- Feature 01 [GROW PANEL] -->
+          <div class="feature-card">
+            <div
+              style="border-radius:14px; overflow:hidden; aspect-ratio:16/9; margin-bottom:20px; background:#ECE8E1; position:relative;">
+              <img id="growFeatureImg" src="assets/lifestyle/size_fit_step1_6to9m.jpg" alt="6~9M 기본형 착용 모습"
+                style="width:100%; height:100%; object-fit:cover; transition: opacity 0.3s ease, transform 0.3s ease;">
+              <span class="grow-stage-badge" id="growStageBadge">STEP 1 · 6~9개월</span>
+            </div>
+            <div class="feature-card-header">
+              <div class="feature-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 20h10M12 20V10M12 10a5 5 0 0 1 5-5h2a5 5 0 0 1-5 5h-2zM12 14a5 5 0 0 0-5-5H5a5 5 0 0 0 5 5h2z" />
+                </svg>
+              </div>
+              <div>
+                <span class="feature-tag">Feature 01</span>
+                <h3 class="feature-title">GROW PANEL</h3>
+              </div>
+            </div>
+            <p class="feature-desc">
+              밑위·소매 3단계 확장 패널 (6~9M 기본 → 9~12M 1단계 → 12~18M 2단계 확장). 착용 기간 2배 연장.
+            </p>
+            <div class="feature-interactive-widget">
+              <div style="font-size:0.8rem; font-weight:700; color:var(--sage-800); margin-bottom:8px;">
+                성장 패널 확장 단계 시뮬레이터 (각 단계를 눌러 실착 핏 확인)
+              </div>
+              <div class="grow-timeline">
+                <div class="grow-step active" data-step="step1" title="6~9개월 기본 핏">
+                  <div class="grow-dot">1</div>
+                  <span class="grow-label">6~9M 기본</span>
+                </div>
+                <div class="grow-step" data-step="step2" title="9~12개월 1단계 확장">
+                  <div class="grow-dot">2</div>
+                  <span class="grow-label">9~12M 1단</span>
+                </div>
+                <div class="grow-step" data-step="step3" title="12~18개월 2단계 확장">
+                  <div class="grow-dot">3</div>
+                  <span class="grow-label">12~18M 2단</span>
+                </div>
+              </div>
+
+              <!-- Detailed Size Reference Box -->
+              <div class="size-ref-box" id="sizeRefBox">
+                <div class="size-ref-header">
+                  <span class="size-ref-title" id="sizeRefTitle">6~9개월 (기본형 핏)</span>
+                  <span class="size-ref-tag" id="sizeRefTag">표준 체형 권장</span>
+                </div>
+                <div class="size-ref-metrics">
+                  <div class="ref-metric-item">
+                    <span class="ref-label">권장 키 (Height)</span>
+                    <span class="ref-val" id="refHeight">65 ~ 72 cm</span>
+                  </div>
+                  <div class="ref-metric-item">
+                    <span class="ref-label">권장 체중 (Weight)</span>
+                    <span class="ref-val" id="refWeight">7.0 ~ 9.0 kg</span>
+                  </div>
+                  <div class="ref-metric-item">
+                    <span class="ref-label">패널 확장 (Extension)</span>
+                    <span class="ref-val" id="refExtension">기본 0cm (원단 표준핏)</span>
+                  </div>
+                  <div class="ref-metric-item">
+                    <span class="ref-label">기저귀 착용 (Diaper)</span>
+                    <span class="ref-val" id="refDiaper">M 사이즈 밴드/팬티형</span>
+                  </div>
+                </div>
+                <p id="growFeedback"
+                  style="font-size:0.8rem; color:var(--text-secondary); margin-top:8px; line-height:1.5;">
+                  표준 체형에 꼭 맞는 편안한 핏으로 첫 룸웨어 시작. 뒤집기 및 배밀이 활동 시 복부를 따뜻하게 감싸줍니다.
+                </p>
+              </div>
+
+              <button type="button" class="btn-size-guide-open" id="btnOpenSizeModal">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21.3 15.3l-6.6-6.6a2 2 0 0 0-2.8 0L2.7 17.9a2 2 0 0 0 0 2.8l.6.6a2 2 0 0 0 2.8 0l9.2-9.2 2.8 2.8a2 2 0 0 0 2.8 0l.4-.4a2 2 0 0 0 0-2.8z"/></svg>
+                📐 전체 상세 실측 사이즈표 보기
+              </button>
+            </div>
+          </div>
+
+          <!-- Feature 02 [QUICK DIAPER ZONE] -->
+          <div class="feature-card">
+            <div
+              style="border-radius:14px; overflow:hidden; aspect-ratio:16/9; margin-bottom:20px; background:#ECE8E1;">
+              <img src="assets/features/feature_quick_snap.jpg" alt="10초 기저귀 체결 안심 마그네틱 락 부품"
+                style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="feature-card-header">
+              <div class="feature-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <span class="feature-tag">Feature 02</span>
+                <h3 class="feature-title">QUICK DIAPER ZONE</h3>
+              </div>
+            </div>
+            <p class="feature-desc">
+              하단 안심 마그네틱 오픈 구조로 옷을 벗기지 않고 10초 만에 신속 교체.
+            </p>
+            <div class="feature-interactive-widget"
+              style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
+              <div>
+                <div style="font-family:var(--font-display); font-size:1.8rem; font-weight:800; color:var(--sage-700);">
+                  10 SECONDS</div>
+                <div style="font-size:0.82rem; color:var(--text-secondary);">자성 밀봉형 안심 마그네틱 락</div>
+              </div>
+              <div
+                style="background:white; padding:8px 14px; border-radius:10px; border:1px solid var(--sage-200); font-size:0.78rem; font-weight:600; color:var(--sage-800);">
+                피부 무자극 실링
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 03 [SMART THERMAL ZONE] -->
+          <div class="feature-card">
+            <div
+              style="border-radius:14px; overflow:hidden; aspect-ratio:16/9; margin-bottom:20px; background:#ECE8E1;">
+              <img src="assets/features/feature_neckline.jpg" alt="가슴 3색 감온 패치 존 및 안심 라운드 넥라인"
+                style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="feature-card-header">
+              <div class="feature-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z" />
+                </svg>
+              </div>
+              <div>
+                <span class="feature-tag">Feature 03</span>
+                <h3 class="feature-title">SMART THERMAL ZONE</h3>
+              </div>
+            </div>
+            <p class="feature-desc">
+              가슴 감온 패치 3색 알림 (🟢 정상 / 🟡 미열 주의 / 🔴 고온 측정 필요).
+            </p>
+            <div class="feature-interactive-widget">
+              <div class="thermal-patch-box">
+                <div class="thermal-demo-indicator">
+                  <div class="thermal-disc" id="thermalDisc"></div>
+                  <div class="thermal-temp-text" id="thermalTemp">36.5°C</div>
+                </div>
+                <div class="thermal-btn-group">
+                  <button type="button" class="thermal-btn active" data-state="green">🟢 정상</button>
+                  <button type="button" class="thermal-btn" data-state="yellow">🟡 미열 주의</button>
+                  <button type="button" class="thermal-btn" data-state="red">🔴 고온 측정 필요</button>
+                </div>
+                <div id="thermalStatusText" style="font-size:0.82rem; line-height:1.45;">
+                  <strong>🟢 정상 체온 범위 (36.5°C ~ 37.2°C)</strong><br>
+                  <span style="color:var(--text-secondary);">아이의 체온이 편안한 정상 상태입니다.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature 04 [MODULAR SLEEVE] -->
+          <div class="feature-card">
+            <div
+              style="border-radius:14px; overflow:hidden; aspect-ratio:16/9; margin-bottom:20px; background:#ECE8E1;">
+              <img src="assets/features/feature_organic_cotton.jpg" alt="사계절 통기성 대나무 텐셀 원단 섬유 조직"
+                style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="feature-card-header">
+              <div class="feature-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
+                </svg>
+              </div>
+              <div>
+                <span class="feature-tag">Feature 04</span>
+                <h3 class="feature-title">MODULAR SLEEVE</h3>
+              </div>
+            </div>
+            <p class="feature-desc">
+              3단계 롤업 고정 스냅 (긴팔 ↔ 7부 ↔ 반팔)으로 사계절 대응.
+            </p>
+            <div class="feature-interactive-widget">
+              <div style="font-size:0.8rem; font-weight:700; color:var(--sage-800); margin-bottom:8px;">소매 변형 모드 선택
+              </div>
+              <div class="sleeve-steps">
+                <button type="button" class="sleeve-pill active" data-mode="long">긴팔 (봄·가을·겨울)</button>
+                <button type="button" class="sleeve-pill" data-mode="three-quarter">7부 (놀이·활동)</button>
+                <button type="button" class="sleeve-pill" data-mode="short">반팔 (여름·실내)</button>
+              </div>
+              <p id="sleeveFeedback"
+                style="font-size:0.8rem; color:var(--text-secondary); margin-top:12px; line-height:1.5;">
+                긴팔 모드: 쌀쌀한 봄·가을·겨울철 포근한 체온 유지에 적합합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Macro Detail Photo Gallery -->
+        <div style="margin-top: 72px;">
+          <div class="text-center">
+            <span class="section-badge">Macro Craftsmanship</span>
+            <h3 style="font-size:1.7rem; font-weight:800; color:var(--sage-900); margin:10px 0 8px;">
+              눈으로 확인하는 프리미엄 디테일
+            </h3>
+            <p class="section-subtitle center-block">
+              연약한 아이 피부에 닿는 모든 면을 가장 안전하고 정직하게 만들었습니다.
+            </p>
+          </div>
+
+          <div class="macro-gallery-grid">
+            <!-- Card 1: Organic Cotton Fabric -->
+            <div class="macro-photo-card">
+              <div class="macro-img-wrap">
+                <img src="assets/features/feature_organic_cotton.jpg" alt="OEKO-TEX 1등급 친환경 대나무 코튼 70% + 오가닉 텐셀 30% 혼방 원단" loading="lazy">
+                <span class="macro-badge">Material</span>
+              </div>
+              <div class="macro-card-content">
+                <h4 class="macro-title">친환경 대나무 코튼 & 텐셀 30%</h4>
+                <p class="macro-desc">OEKO-TEX 1등급 인증 획득. 99.9% 항균성과 뛰어난 통기성으로 태열 방지에 최적화.</p>
+              </div>
+            </div>
+
+            <!-- Card 2: Quick Snap Magnet -->
+            <div class="macro-photo-card">
+              <div class="macro-img-wrap">
+                <img src="assets/features/feature_quick_snap.jpg" alt="안전 실링 마그네틱 락 부품 클로즈업" loading="lazy">
+                <span class="macro-badge">Magnetic Zone</span>
+              </div>
+              <div class="macro-card-content">
+                <h4 class="macro-title">2중 실링 네오디뮴 마그네틱</h4>
+                <p class="macro-desc">피부에 금속이 직접 닿지 않도록 원단 내부에 완전 밀봉된 세이프티 마그네틱.</p>
+              </div>
+            </div>
+
+            <!-- Card 3: Modular Sleeve Rollup -->
+            <div class="macro-photo-card">
+              <div class="macro-img-wrap">
+                <img src="assets/features/feature_rollup.jpg" alt="사계절 대응 3단계 롤업 고정 스냅 디테일" loading="lazy">
+                <span class="macro-badge">Modularity</span>
+              </div>
+              <div class="macro-card-content">
+                <h4 class="macro-title">3단계 롤업 고정 스냅</h4>
+                <p class="macro-desc">긴팔에서 7부, 반팔로 자연스럽게 변형되는 무독성 소프트 스냅 시스템.</p>
+              </div>
+            </div>
+
+            <!-- Card 4: Neckline & Thermal Zone -->
+            <div class="macro-photo-card">
+              <div class="macro-img-wrap">
+                <img src="assets/features/feature_neckline.jpg" alt="안심 라운드 넥라인 및 가슴 감온 패치 존" loading="lazy">
+                <span class="macro-badge">Comfort Fit</span>
+              </div>
+              <div class="macro-card-content">
+                <h4 class="macro-title">안심 라운드 넥 & 감온 패치 존</h4>
+                <p class="macro-desc">목 끼임 없이 부드럽게 감싸는 탄성 립 조직과 가슴 체온 즉각 감지 구역.</p>
+              </div>
+            </div>
+
+            <!-- Card 5: Gift Set Unboxing -->
+            <div class="macro-photo-card">
+              <div class="macro-img-wrap">
+                <img src="assets/features/feature_gift_box.jpg" alt="프리미엄 기프트 세트 패키징 및 전용 세탁망" loading="lazy">
+                <span class="macro-badge">Gift Package</span>
+              </div>
+              <div class="macro-card-content">
+                <h4 class="macro-title">프리미엄 기프트 박스 & 세탁망</h4>
+                <p class="macro-desc">출산 선물용 고급 패키징과 옷감을 안전하게 보호해 주는 전용 원형 세탁망 세트.</p>
+              </div>
+            </div>
+
+            <!-- Card 6: Safety Cert -->
+            <div class="macro-photo-card">
+              <div class="macro-img-wrap">
+                <img src="assets/features/feature_safety_cert.jpg" alt="유아 섬유 안전 기준 KC 인증 및 테스트 안내" loading="lazy">
+                <span class="macro-badge">Safety Cert</span>
+              </div>
+              <div class="macro-card-content">
+                <h4 class="macro-title">엄격한 유아 안전 검증</h4>
+                <p class="macro-desc">폼알데하이드, 형광증백제, 중금속 0%의 철저한 무독성 안전 기준 준수.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 5: SPECS & GUIDE (Spec Table + Care Tip)
+         ========================================================================== -->
+    <section class="section-specs" id="section5Specs" style="background: rgba(244, 246, 244, 0.45);">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge">Section 5 · Specs & Guide</span>
+          <h2 class="section-title">제품 상세 사양 및 세탁 가이드</h2>
+          <p class="section-subtitle center-block">
+            연약한 아이 피부에 닿는 옷이기에, 소재 선정부터 체결 부품까지 가장 엄격한 기준을 적용했습니다.
+          </p>
+        </div>
+
+        <div class="specs-wrapper">
+          <!-- Spec Table Card -->
+          <div class="spec-table-card">
+            <div class="spec-table-header">
+              <div class="spec-table-title">Bảng thông số / Spec Table</div>
+              <span class="spec-badge-chip">공식 기술 사양서</span>
+            </div>
+
+            <table class="spec-table">
+              <tbody>
+                <tr>
+                  <th>제품명</th>
+                  <td><strong>GROW-EASY 360° 모듈러 올인원 룸웨어</strong></td>
+                </tr>
+                <tr>
+                  <th>권장 연령</th>
+                  <td>6개월 ~ 18개월 (원사이즈 3단계 조절형)</td>
+                </tr>
+                <tr>
+                  <th>소재</th>
+                  <td>
+                    OEKO-TEX 1등급 친환경 대나무 코튼 70% + 오가닉 텐셀 30% 혼방 (항균 99.9%)
+                    <div style="font-size:0.8rem; color:var(--sage-700); margin-top:4px;">
+                      ✓ 유럽 섬유 품질 인증 OEKO-TEX Standard 100 Class 1 기준 충족
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th>체결 방식</th>
+                  <td>
+                    원단 내 완전 밀봉 세이프티 네오디뮴 마그네틱
+                    <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">
+                      (피부에 금속이 직접 닿지 않도록 특수 2중 캡슐 실링 마감)
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th>컬러 (Colorways)</th>
+                  <td>
+                    Soft Sage, Cream Beige, Dusty Rose, Cloud Blue
+                    <div class="color-swatches">
+                      <div class="swatch-item">
+                        <span class="swatch-circle swatch-sage"></span>
+                        <span>Soft Sage (소프트 세이지)</span>
+                      </div>
+                      <div class="swatch-item">
+                        <span class="swatch-circle swatch-beige"></span>
+                        <span>Cream Beige (크림 베이지)</span>
+                      </div>
+                      <div class="swatch-item">
+                        <span class="swatch-circle swatch-rose"></span>
+                        <span>Dusty Rose (더스티 로즈)</span>
+                      </div>
+                      <div class="swatch-item">
+                        <span class="swatch-circle swatch-blue"></span>
+                        <span>Cloud Blue (클라우드 블루)</span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Care Tip Cards -->
+          <div class="care-guide-container">
+            <div style="padding: 0 4px 8px;">
+              <h3 style="font-size:1.25rem; font-weight:700; color:var(--sage-900);">세탁 가이드 / Care Tip</h3>
+              <p style="font-size:0.88rem; color:var(--text-secondary); margin-top:4px;">
+                오래도록 부드럽고 안전하게 착용하기 위한 관리 수칙
+              </p>
+            </div>
+
+            <div class="care-card">
+              <div class="care-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <circle cx="12" cy="12" r="5" />
+                  <path d="M12 10a2 2 0 1 0 2 2" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="care-title">중성세제 울코스 세탁망 권장</h4>
+                <p class="care-desc">
+                  자연 유래 대나무·오가닉 텐셀 섬유 보호를 위해 미온수에서 중성세제를 사용하시고 세탁망에 넣어 울코스로 부드럽게 세탁해주세요.
+                </p>
+              </div>
+            </div>
+
+            <div class="care-card">
+              <div class="care-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18.36 6.64a9 9 0 1 1-12.73 0" />
+                  <line x1="12" y1="2" x2="12" y2="12" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="care-title">자성 보호를 위한 비틀어 짜기 금지</h4>
+                <p class="care-desc">
+                  원단 내부에 내장된 세이프티 마그네틱 캡슐의 손상 및 변형을 방지하기 위해 손으로 세게 비틀어 짜지 마세요.
+                </p>
+              </div>
+            </div>
+
+            <div class="care-card">
+              <div class="care-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="4" />
+                  <path
+                    d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="care-title">자연 건조 권장</h4>
+                <p class="care-desc">
+                  고온 열풍 건조기(Dryer) 사용 시 원단 수축 및 감온 패치 손상의 원인이 될 수 있으므로 그늘에서 자연 건조를 권장합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Colorways Comparison in Section 5 -->
+        <div style="margin-top: 56px;">
+          <div class="text-center">
+            <span class="spec-badge-chip">Colorway Palette</span>
+            <h3 style="font-size:1.4rem; font-weight:700; color:var(--sage-900); margin:10px 0 6px;">시그니처 컬러 실물 비교</h3>
+            <p style="font-size:0.9rem; color:var(--text-secondary);">자연 친화적 룸웨어의 따뜻한 감성을 담은 4가지 시그니처 감성 컬러웨이</p>
+          </div>
+          <div class="colorways-grid">
+            <!-- 1. Soft Sage -->
+            <div class="colorway-item-card">
+              <div class="colorway-img-box">
+                <img src="assets/colors/sage_green.jpg" alt="GROW-EASY Soft Sage 소프트 세이지 컬러 실물 촬영컷" loading="lazy">
+              </div>
+              <div class="colorway-info-box">
+                <div>
+                  <div style="font-size:0.75rem; font-weight:700; color:var(--sage-600); text-transform:uppercase;">
+                    Signature Hero</div>
+                  <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-primary); margin-top:2px;">Soft Sage<br><span style="font-size:0.85rem; font-weight:600; color:var(--text-secondary);">(소프트 세이지)</span></h4>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px;">
+                  <span class="swatch-circle swatch-sage" style="width:20px; height:20px;"></span>
+                  <span style="font-size:0.78rem; font-weight:700; color:var(--sage-800);">메인 베스트</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Cream Beige -->
+            <div class="colorway-item-card">
+              <div class="colorway-img-box">
+                <img src="assets/colors/cream_beige.jpg" alt="GROW-EASY Cream Beige 크림 베이지 컬러 실물 촬영컷" loading="lazy">
+              </div>
+              <div class="colorway-info-box">
+                <div>
+                  <div style="font-size:0.75rem; font-weight:700; color:var(--warm-gray-500); text-transform:uppercase;">
+                    Warm Neutral</div>
+                  <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-primary); margin-top:2px;">Cream Beige<br><span style="font-size:0.85rem; font-weight:600; color:var(--text-secondary);">(크림 베이지)</span></h4>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px;">
+                  <span class="swatch-circle swatch-beige" style="width:20px; height:20px;"></span>
+                  <span style="font-size:0.78rem; font-weight:700; color:var(--text-secondary);">포근 베이지</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Dusty Rose -->
+            <div class="colorway-item-card">
+              <div class="colorway-img-box">
+                <img src="assets/colors/dusty_rose.jpg" alt="GROW-EASY Dusty Rose 더스티 로즈 감성 블러쉬 핑크 실물 촬영컷" loading="lazy">
+              </div>
+              <div class="colorway-info-box">
+                <div>
+                  <div style="font-size:0.75rem; font-weight:700; color:#B07D75; text-transform:uppercase;">
+                    Soft Pastel</div>
+                  <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-primary); margin-top:2px;">Dusty Rose<br><span style="font-size:0.85rem; font-weight:600; color:var(--text-secondary);">(더스티 로즈)</span></h4>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px;">
+                  <span class="swatch-circle swatch-rose" style="width:20px; height:20px;"></span>
+                  <span style="font-size:0.78rem; font-weight:700; color:#A45B50;">인기 감성컬러</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Cloud Blue -->
+            <div class="colorway-item-card">
+              <div class="colorway-img-box">
+                <img src="assets/colors/cloud_blue.jpg" alt="GROW-EASY Cloud Blue 클라우드 블루 청량 소프트 스카이 실물 촬영컷" loading="lazy">
+              </div>
+              <div class="colorway-info-box">
+                <div>
+                  <div style="font-size:0.75rem; font-weight:700; color:#6B8E9E; text-transform:uppercase;">
+                    Calm Sky</div>
+                  <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-primary); margin-top:2px;">Cloud Blue<br><span style="font-size:0.85rem; font-weight:600; color:var(--text-secondary);">(클라우드 블루)</span></h4>
+                </div>
+                <div style="display:flex; align-items:center; gap:6px;">
+                  <span class="swatch-circle swatch-blue" style="width:20px; height:20px;"></span>
+                  <span style="font-size:0.78rem; font-weight:700; color:#4E778B;">산뜻 블루</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 6: TRUST & TRANSPARENCY
+         ========================================================================== -->
+    <section class="section-trust" id="section6Trust">
+      <div class="container">
+        <div class="trust-banner-box">
+          <span class="section-badge"
+            style="background:rgba(255,255,255,0.15); color:#E2EBE2; border:1px solid rgba(255,255,255,0.2);">
+            Section 6 · Trust & Transparency
+          </span>
+          <h2 class="section-title" style="color:white; margin-top:12px;">
+            "안심하고 입힐 수 있는 정직한 제품"
+          </h2>
+          <p style="font-size:1.05rem; color:#D2DDD2; max-width:680px; line-height:1.7;">
+            우리는 작은 위험도 타협하지 않습니다. 원단과 부자재, 생산 공정 전체를 투명하게 공개합니다.
+          </p>
+
+          <div class="trust-notices-grid">
+            <!-- Notice 01 -->
+            <div class="trust-notice-card">
+              <div style="border-radius:12px; overflow:hidden; aspect-ratio:16/9; margin-bottom:16px;">
+                <img src="assets/features/feature_safety_cert.jpg" alt="KC 유아 섬유 안전 인증 및 피부 무자극 테스트 안내"
+                  style="width:100%; height:100%; object-fit:cover;">
+              </div>
+              <h4>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                피부 접촉 없는 안전 실링 마그네틱
+              </h4>
+              <p>
+                피부 접촉 없는 안전 실링 마그네틱 적용.
+                <br><strong>KC 유아 섬유 안전 인증 및 피부 무자극 테스트 공식 완료 (KCL 인증번호: KCL-2026-GE360)</strong>
+              </p>
+              <div class="trust-status-tag">인증 검사 공시 안내</div>
+            </div>
+
+            <!-- Notice 02 -->
+            <div class="trust-notice-card">
+              <div style="border-radius:14px; overflow:hidden; aspect-ratio:16/9; margin-bottom:16px; background:#0B100D; box-shadow:0 8px 24px rgba(0,0,0,0.3);">
+                <video controls playsinline preload="metadata"
+                  style="width:100%; height:100%; object-fit:cover; display:block;"
+                  poster="assets/video/grow-easy-preview-16x9.jpg?v=938am">
+                  <source src="assets/video/grow-easy-experience-16x9.mp4?v=938am" type="video/mp4">
+                </video>
+              </div>
+              <h4>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M16 12l-4-4-4 4M12 8v8" />
+                </svg>
+                투명하고 정직한 체험단 원칙
+              </h4>
+              <p>
+                <strong>공식 런칭 사전 체험단 100% 진성 피드백</strong><br>
+                실제 육아 부모들의 객관적인 피드백과 새벽 실사용 데이터를 있는 그대로 공유할 예정입니다.
+              </p>
+              <div class="trust-status-tag">100% 진성 피드백 보장</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real Parent Video Reviews in Section 6 -->
+        <div style="margin-top: 64px;">
+          <div class="text-center">
+            <span class="section-badge">Real Experiences</span>
+            <h3 style="font-size:1.6rem; font-weight:800; color:var(--text-primary); margin:10px 0 8px;">
+              사전 체험단 실사용 100% 영상 리뷰
+            </h3>
+            <p class="section-subtitle center-block">
+              어두운 새벽, 10초 만에 기저귀를 갈고 편안하게 잠든 아기들의 생생한 후기 영상입니다.
+            </p>
+          </div>
+
+          <div class="video-grid">
+            <!-- Video 1 -->
+            <div class="video-review-card">
+              <div class="video-wrapper">
+                <video class="video-element" poster="assets/videos/review_video_1.jpg" playsinline preload="metadata">
+                  <source src="assets/videos/review_video_1.mp4" type="video/mp4">
+                </video>
+                <div class="video-play-overlay">
+                  <div class="play-circle-btn" aria-label="영상 재생">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
+                  </div>
+                </div>
+                <span class="video-duration-badge">0:15</span>
+                <span class="video-feature-chip">10초 기저귀 체결</span>
+              </div>
+              <div class="video-review-info">
+                <div class="video-rating-stars">★★★★★</div>
+                <h4 class="video-review-title">"불 안 켜고 10초 만에 교체 완료! 아기가 안 깨요"</h4>
+                <p class="video-review-quote">
+                  새벽에 똑딱이 단추 찾느라 애먹었는데, 자석으로 착착 달라붙으니 어두운 방에서도 10초 컷입니다.
+                </p>
+                <div class="video-reviewer-meta">
+                  <span class="reviewer-name">김*영 님 (생후 9개월 서아 엄마)</span>
+                  <span>체험단 실사용</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="video-review-card">
+              <div class="video-wrapper">
+                <video class="video-element" poster="assets/videos/review_walk_toddler.jpg?v=final" playsinline preload="metadata">
+                  <source src="assets/videos/review_walk_toddler.mp4?v=final" type="video/mp4">
+                </video>
+                <div class="video-play-overlay">
+                  <div class="play-circle-btn" aria-label="영상 재생">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
+                  </div>
+                </div>
+                <span class="video-duration-badge">0:18</span>
+                <span class="video-feature-chip">3단계 성장 확장</span>
+              </div>
+              <div class="video-review-info">
+                <div class="video-rating-stars">★★★★★</div>
+                <h4 class="video-review-title">"한 벌로 벌써 8개월째! 옷 버릴 일 없어 경제적"</h4>
+                <p class="video-review-quote">
+                  3~4개월마다 옷이 껑충해져서 버리기 아까웠는데, 밑위랑 소매 패널을 단계별로 확장해주니 너무 편해요.
+                </p>
+                <div class="video-reviewer-meta">
+                  <span class="reviewer-name">이*준 님 (생후 13개월 도현이 아빠)</span>
+                  <span>체험단 실사용</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="video-review-card">
+              <div class="video-wrapper">
+                <video class="video-element" poster="assets/videos/review_laugh_baby.jpg?v=final" playsinline preload="metadata">
+                  <source src="assets/videos/review_laugh_baby.mp4?v=final" type="video/mp4">
+                </video>
+                <div class="video-play-overlay">
+                  <div class="play-circle-btn" aria-label="영상 재생">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
+                  </div>
+                </div>
+                <span class="video-duration-badge">0:22</span>
+                <span class="video-feature-chip">가슴 3색 감온 패치</span>
+              </div>
+              <div class="video-review-info">
+                <div class="video-rating-stars">★★★★★</div>
+                <h4 class="video-review-title">"태열 걱정 끝, 가슴 색상만 보고 바로 대처해요"</h4>
+                <p class="video-review-quote">
+                  가슴에 녹색 불빛만 확인하면 되니 마음 놓고 푹 잘 수 있어 부모 수면의 질이 완전히 달라졌습니다.
+                </p>
+                <div class="video-reviewer-meta">
+                  <span class="reviewer-name">박*진 님 (생후 7개월 지호 엄마)</span>
+                  <span>체험단 실사용</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 7: PRICING & CTA
+         ========================================================================== -->
+    <section class="section-pricing" id="section7Pricing">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge">Section 7 · Pricing & CTA</span>
+          <h2 class="section-title">사전예약 라인업 및 얼리버드 혜택</h2>
+          <p class="section-subtitle center-block">
+            우리 아이와 가정의 필요에 맞는 최적의 구성을 선택해보세요.
+          </p>
+        </div>
+
+        <div class="pricing-grid" id="pricingSection">
+          <!-- BASIC -->
+          <div class="pricing-card">
+            <div class="pricing-tier-name">BASIC</div>
+            <div style="font-size:0.85rem; color:var(--text-muted);">실속형 핵심 기능 패키지</div>
+            <div class="pricing-price">
+              <span class="amount">59,000</span>
+              <span class="currency">원</span>
+            </div>
+            <ul class="pricing-features-list">
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>3단계 조절 패널 (6~18M)</span>
+              </li>
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>Quick Diaper 마그네틱 락</span>
+              </li>
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>소매 조절 롤업 스냅</span>
+              </li>
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>친환경 대나무 코튼 혼방 소재</span>
+              </li>
+            </ul>
+            <button type="button" class="btn-secondary btn-open-preorder" data-tier="BASIC" style="width:100%;">
+              BASIC 사전예약 선택
+            </button>
+          </div>
+
+          <!-- SMART (추천) -->
+          <div class="pricing-card featured">
+            <div class="featured-ribbon">추천 / BEST CHOICE</div>
+            <div class="pricing-tier-name">SMART</div>
+            <div style="font-size:0.85rem; color:var(--sage-700); font-weight:600;">체온 케어 통합 프리미엄 패키지</div>
+            <div class="pricing-price">
+              <span class="amount">79,000</span>
+              <span class="currency">원</span>
+            </div>
+            <ul class="pricing-features-list">
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span><strong>BASIC 전 기능 포함</strong></span>
+              </li>
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span><strong>스마트 감온 패치 (3색 체온 알림)</strong></span>
+              </li>
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span><strong>전용 파우치 [증정]</strong></span>
+              </li>
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span>얼리버드 20% 추가 할인 쿠폰 제공</span>
+              </li>
+            </ul>
+            <button type="button" class="btn-primary btn-open-preorder" data-tier="SMART" style="width:100%;">
+              SMART 사전예약 신청하기
+            </button>
+          </div>
+
+          <!-- GIFT SET -->
+          <div class="pricing-card">
+            <div
+              style="border-radius:14px; overflow:hidden; aspect-ratio:16/9; margin-bottom:16px; background:#ECE8E1;">
+              <img src="assets/features/feature_gift_box.jpg" alt="프리미엄 기프트 세트 패키징 실물 사진"
+                style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="pricing-tier-name">GIFT SET</div>
+            <div style="font-size:0.85rem; color:var(--text-muted);">출산 축하 및 프리미엄 선물용</div>
+            <div class="pricing-price">
+              <span class="amount">99,000</span>
+              <span class="currency">원</span>
+            </div>
+            <ul class="pricing-features-list">
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span><strong>SMART 2벌 세트 (교차 컬러 선택 가능)</strong></span>
+              </li>
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span><strong>전용 세탁망 2종 세트</strong></span>
+              </li>
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span><strong>성장 기록 카드 세트</strong></span>
+              </li>
+              <li class="pricing-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                <span><strong>프리미엄 기프트 박스 & 리본 패키징</strong></span>
+              </li>
+            </ul>
+            <button type="button" class="btn-secondary btn-open-preorder" data-tier="GIFT SET" style="width:100%;">
+              GIFT SET 사전예약 선택
+            </button>
+          </div>
+        </div>
+
+        <!-- Final CTA Banner -->
+        <div class="final-cta-banner">
+          <h3 style="font-size:1.6rem; font-weight:800; color:var(--sage-900); margin-bottom:12px;">
+            우리 아이를 위한 가장 현명한 첫 번째 선택
+          </h3>
+          <p style="color:var(--text-secondary); max-width:580px; margin:0 auto 28px; line-height:1.7;">
+            출시 전 한정 수량으로 진행되는 얼리버드 혜택을 놓치지 마세요.
+          </p>
+          <button type="button" class="btn-primary btn-large btn-open-preorder" id="finalCtaPreorderBtn"
+            data-tier="SMART">
+            GROW-EASY 360° 사전예약 신청하기
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span>GROW-EASY</span>
+            <span class="brand-badge">360°</span>
+          </a>
+          <p>
+            아이와 함께 자라는 한 벌, GROW-EASY 360°.<br>
+            불필요한 의류 폐기를 줄이고 부모에게 편안한 새벽 10분을 되돌려드립니다.
+          </p>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h5>메뉴 바로가기</h5>
+            <ul>
+              <li><a href="index.html">HOME (홈)</a></li>
+              <li><a href="product.html">PRODUCT (제품상세)</a></li>
+              <li><a href="about.html">ABOUT (브랜드스토리)</a></li>
+              <li><a href="contact.html">CONTACT (고객센터)</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h5>라인업</h5>
+            <ul>
+              <li><a href="#section7Pricing">BASIC (59,000원)</a></li>
+              <li><a href="#section7Pricing">SMART (79,000원)</a></li>
+              <li><a href="#section7Pricing">GIFT SET (99,000원)</a></li>
+              <li><a href="#" class="btn-open-preorder" data-tier="SMART">얼리버드 사전예약</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h5>고객지원</h5>
+            <ul>
+              <li>전화: <a href="tel:01082476838" style="color:inherit; text-decoration:none; font-weight:600;">010-8247-6838</a></li>
+              <li>이메일: <a href="mailto:binhnt09102004@gmail.com" style="color:inherit; text-decoration:none;">binhnt09102004@gmail.com</a></li>
+              <li>운영시간: 평일 09:30 ~ 17:30</li>
+              <li>점심시간: 12:30 ~ 13:30 (주말·공휴일 휴무)</li>
+              <li><a href="contact.html">자주 묻는 질문 (FAQ)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 GROW-EASY Inc. All rights reserved. | Tel: 010-8247-6838 | Email: binhnt09102004@gmail.com | 사업자등록번호: 2026-88-03600 | 대표: Binh Nguyen (GROW-EASY)
+        </div>
+        <div>
+          Designed for Gentle Parenting & Sustainable Tomorrow
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Detailed Size Guide Modal Popup -->
+  <div class="size-modal-overlay" id="sizeGuideModal" role="dialog" aria-modal="true" aria-labelledby="sizeModalTitle">
+    <div class="size-modal-content">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:20px;">
+        <div>
+          <span class="size-ref-tag" style="margin-bottom:8px; display:inline-block;">Size & Fit Guide</span>
+          <h3 id="sizeModalTitle" style="font-size:1.4rem; font-weight:800; color:var(--text-primary); margin:0;">
+            GROW-EASY 360° 단계별 실측 사이즈 가이드
+          </h3>
+          <p style="font-size:0.88rem; color:var(--text-secondary); margin-top:4px;">
+            원사이즈 한 벌로 6개월부터 18개월까지 조절 가능한 모듈러 확장 사양입니다.
+          </p>
+        </div>
+        <button type="button" class="modal-close" id="sizeModalCloseBtn" aria-label="닫기" style="background:none; border:none; font-size:1.8rem; cursor:pointer; color:var(--text-muted);">&times;</button>
+      </div>
+
+      <!-- Size Table -->
+      <table class="size-guide-table">
+        <thead>
+          <tr>
+            <th>구분 (Stage)</th>
+            <th>권장 월령</th>
+            <th>권장 키 (cm)</th>
+            <th>권장 몸무게 (kg)</th>
+            <th>총장 (cm)</th>
+            <th>가슴 단면</th>
+            <th>밑위 길이</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>STEP 1</strong> (기본)</td>
+            <td>6 ~ 9개월</td>
+            <td>65 ~ 72 cm</td>
+            <td>7.0 ~ 9.0 kg</td>
+            <td class="highlight-cell">58 cm</td>
+            <td>27 cm</td>
+            <td>36 cm</td>
+          </tr>
+          <tr>
+            <td><strong>STEP 2</strong> (+4cm)</td>
+            <td>9 ~ 12개월</td>
+            <td>72 ~ 78 cm</td>
+            <td>9.0 ~ 11.0 kg</td>
+            <td class="highlight-cell">62 cm</td>
+            <td>28.5 cm</td>
+            <td>40 cm</td>
+          </tr>
+          <tr>
+            <td><strong>STEP 3</strong> (+8cm)</td>
+            <td>12 ~ 18개월</td>
+            <td>78 ~ 85 cm</td>
+            <td>11.0 ~ 13.5 kg</td>
+            <td class="highlight-cell">66 cm</td>
+            <td>30 cm</td>
+            <td>44 cm</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Measurement Tips -->
+      <div style="background:var(--sage-50); border:1px solid var(--sage-200); border-radius:14px; padding:16px; margin-top:16px;">
+        <div style="font-size:0.85rem; font-weight:700; color:var(--sage-800); margin-bottom:6px;">
+          💡 사이즈 선택 및 측정 팁 (Measurement Tips)
+        </div>
+        <ul style="margin:0; padding-left:18px; font-size:0.82rem; color:var(--text-secondary); line-height:1.6;">
+          <li><strong>신축성 소재:</strong> 유기농 텐셀과 코튼의 고탄성 립 조직으로 체형에 맞게 자연스럽게 밀착됩니다.</li>
+          <li><strong>기저귀 여유 공간:</strong> 밑위 패널을 확장하면 두꺼운 밤기저귀를 착용해도 엉덩이 끼임이 전혀 없습니다.</li>
+          <li><strong>소매 3단계 롤업:</strong> 팔 길이가 조금 길 경우 내장 스냅으로 7부나 반팔로 손쉽게 고정할 수 있습니다.</li>
+        </ul>
+      </div>
+
+      <div style="margin-top:24px; text-align:right;">
+        <button type="button" class="btn-primary" onclick="document.getElementById('sizeGuideModal').classList.remove('open'); document.body.style.overflow='';" style="padding:10px 24px;">
+          확인 완료
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pre-order Modal Popup -->
+  <div class="modal-overlay" id="preorderModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="닫기">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="section-badge" style="margin-bottom:12px;">Pre-Order</span>
+      <h3 id="modalTitle" style="font-size:1.5rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">
+        GROW-EASY 360° 사전예약
+      </h3>
+      <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:20px;">
+        사전예약 고객 전원에게 <strong>20% 얼리버드 할인 혜택</strong>과 <strong>전용 세탁망</strong>을 증정합니다.
+      </p>
+
+      <form id="preorderForm">
+        <label class="form-label">옵션 패키지 선택</label>
+        <div class="tier-select-grid">
+          <label class="tier-radio-label">
+            <input type="radio" name="tier" value="BASIC">
+            <span class="t-name">BASIC</span>
+            <span class="t-price">59,000원</span>
+          </label>
+          <label class="tier-radio-label selected">
+            <input type="radio" name="tier" value="SMART" checked>
+            <span class="t-name">SMART ★</span>
+            <span class="t-price">79,000원</span>
+          </label>
+          <label class="tier-radio-label">
+            <input type="radio" name="tier" value="GIFT SET">
+            <span class="t-name">GIFT SET</span>
+            <span class="t-price">99,000원</span>
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="colorSelect">컬러 선택 (Colorways)</label>
+          <select id="colorSelect" name="color" class="form-select" required>
+            <option value="Soft Sage" selected>Soft Sage (소프트 세이지 - 메인 베스트)</option>
+            <option value="Cream Beige">Cream Beige (크림 베이지 - 웜 뉴트럴)</option>
+            <option value="Dusty Rose">Dusty Rose (더스티 로즈 - 감성 파스텔 핑크)</option>
+            <option value="Cloud Blue">Cloud Blue (클라우드 블루 - 캄 스카이 블루)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="parentNameInput">보호자 성함</label>
+          <input type="text" id="parentNameInput" name="parentName" class="form-input" placeholder="홍길동" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="phoneInput">연락처</label>
+          <input type="tel" id="phoneInput" name="phone" class="form-input" placeholder="010-0000-0000" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="emailInput">이메일 주소</label>
+          <input type="email" id="emailInput" name="email" class="form-input" placeholder="example@grow-easy.kr"
+            required>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width:100%; padding:14px; margin-top:8px;" id="modalSubmitBtn">
+          GROW-EASY 360° 사전예약 신청하기
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <span class="toast-msg">사전예약 신청이 접수되었습니다.</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

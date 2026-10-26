@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GROW-EASY 360° | 자주 묻는 질문 & 고객 지원 (CONTACT)</title>
+  <meta name="description" content="GROW-EASY 360° 모듈러 룸웨어에 대한 자주 묻는 질문(FAQ) 및 고객 지원 센터 안내. 세탁 방법, 자석 안전성, 사이즈 조절 안내.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+</head>
+<body>
+
+  <!-- Site Header (GNB) -->
+  <header class="site-header" id="mainHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" id="brandLogoContact">
+        <svg class="logo-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+        </svg>
+        <span>GROW-EASY</span>
+        <span class="brand-badge">360°</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="primaryNav">
+          <li><a href="index.html" class="nav-link" id="navHome">HOME</a></li>
+          <li><a href="product.html" class="nav-link" id="navProduct">PRODUCT</a></li>
+          <li><a href="about.html" class="nav-link" id="navAbout">ABOUT</a></li>
+          <li><a href="contact.html" class="nav-link active" id="navContact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="btn-primary btn-open-preorder" id="gnbPreorderBtn" data-tier="SMART">
+          사전예약
+        </button>
+        <button type="button" class="mobile-toggle" id="mobileMenuBtn" aria-label="메뉴 열기">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge">Help Center & FAQ</span>
+          <h1 class="section-title">자주 묻는 질문 (FAQ) & 고객 지원</h1>
+          <p class="section-subtitle center-block">
+            GROW-EASY 360° 착용 및 관리에 대한 궁금한 점을 신속하게 해결해드립니다.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Left: FAQ Accordion -->
+          <div>
+            <h2 style="font-size:1.35rem; font-weight:700; color:var(--text-primary); margin-bottom:20px; display:flex; align-items:center; gap:8px;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+              주요 질문 및 답변
+            </h2>
+
+            <div class="faq-accordion-group" id="faqAccordionGroup">
+              <!-- Q1 -->
+              <div class="faq-item open" id="faqItem1">
+                <button type="button" class="faq-question">
+                  <span style="display:flex; align-items:center; gap:12px;">
+                    <span class="q-badge">Q1</span>
+                    <span>세탁기 사용이 가능한가요?</span>
+                  </span>
+                  <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    <strong>A:</strong> 네, 중성세제를 사용하여 세탁망에 넣고 울코스로 세탁하시면 안전합니다. 건조기(열풍) 사용을 피하고 그늘에서 자연 건조하시면 내장된 마그네틱 캡슐과 스마트 감온 패치의 수명을 오래도록 유지할 수 있습니다.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Q2 -->
+              <div class="faq-item" id="faqItem2">
+                <button type="button" class="faq-question">
+                  <span style="display:flex; align-items:center; gap:12px;">
+                    <span class="q-badge">Q2</span>
+                    <span>자석이 아이 피부에 닿지 않나요?</span>
+                  </span>
+                  <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    <strong>A:</strong> 자석 부품이 원단 내부에 2중 밀봉 처리되어 피부에 직접 닿지 않습니다. 의료용 실리콘 캡슐로 실링되어 녹슬거나 충격에 깨지지 않으며, 민감한 아기 피부에도 자극 없이 편안하게 착용할 수 있습니다.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Q3 -->
+              <div class="faq-item" id="faqItem3">
+                <button type="button" class="faq-question">
+                  <span style="display:flex; align-items:center; gap:12px;">
+                    <span class="q-badge">Q3</span>
+                    <span>한 사이즈로 18개월까지 정말 입힐 수 있나요?</span>
+                  </span>
+                  <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    <strong>A:</strong> 네, 밑위와 소매 확장 패널을 통해 3단계로 조절되어 6개월부터 18개월까지 안정적으로 착용 가능합니다. 아이의 월령과 키·몸무게 성장에 따라 패널 길이를 +4cm, +8cm 단계별로 손쉽게 늘려 입히실 수 있습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1:1 Inquiry Form -->
+            <div class="inquiry-form-card">
+              <h3 style="font-size:1.25rem; font-weight:700; color:var(--text-primary); margin-bottom:6px;">
+                1:1 온라인 문의하기
+              </h3>
+              <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:20px;">
+                FAQ에서 해결되지 않은 문의사항을 남겨주시면 담당 매니저가 확인 후 24시간 이내에 답변드립니다.
+              </p>
+
+              <form id="inquiryForm" onsubmit="event.preventDefault(); alert('문의가 성공적으로 접수되었습니다. 고객센터에서 신속히 안내해 드리겠습니다.'); this.reset();">
+                <div class="form-group">
+                  <label class="form-label" for="inqName">성함</label>
+                  <input type="text" id="inqName" class="form-input" placeholder="홍길동" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="inqEmail">이메일 주소</label>
+                  <input type="email" id="inqEmail" class="form-input" placeholder="example@domain.com" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="inqType">문의 유형</label>
+                  <select id="inqType" class="form-select">
+                    <option value="preorder">사전예약 및 얼리버드 혜택 문의</option>
+                    <option value="product">제품 소재 및 세탁 방법 문의</option>
+                    <option value="size">사이즈 조절 및 착용 가이드 문의</option>
+                    <option value="partnership">제휴 및 사전 체험단 문의</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="inqMsg">문의 내용</label>
+                  <textarea id="inqMsg" rows="4" class="form-textarea" placeholder="문의하실 내용을 자세히 입력해주세요." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width:100%;">
+                  문의 접수하기
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Right: Customer Support Info Card -->
+          <div>
+            <div class="support-card">
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px;">
+                <div>
+                  <span class="support-hours-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                      <circle cx="12" cy="12" r="10"/>
+                      <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                    Customer Support
+                  </span>
+                  <h3 style="font-size:1.35rem; font-weight:800; color:var(--text-primary); margin-top:8px;">
+                    고객센터 운영 안내
+                  </h3>
+                </div>
+                <img src="assets/mascot/mascot-waving.svg" alt="고객지원 마스코트" style="width:64px; height:64px; flex-shrink:0;">
+              </div>
+              <p style="font-size:0.95rem; color:var(--text-secondary); line-height:1.65; margin-bottom:24px;">
+                부모의 편안한 일상을 돕기 위해 전문 상담 인력이 친절하게 안내해드립니다.
+              </p>
+
+              <!-- Operating Hours Notice -->
+              <div style="background:var(--sage-50); border:1px solid var(--sage-200); border-radius:14px; padding:18px; margin-bottom:28px;">
+                <div style="font-size:0.8rem; font-weight:700; color:var(--sage-800); margin-bottom:4px;">공식 운영시간</div>
+                <div style="font-size:1.1rem; font-weight:700; color:var(--sage-900);">
+                  평일 09:30 ~ 17:30
+                </div>
+                <div style="font-size:0.82rem; color:var(--text-muted); margin-top:4px;">
+                  점심시간 12:30 ~ 13:30 (주말 및 공휴일 휴무)
+                </div>
+              </div>
+
+              <!-- Support Channels -->
+              <div class="support-channel">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div style="font-size:0.8rem; color:var(--text-muted);">대표 전화 상담 (상시 연결)</div>
+                  <div style="font-weight:700; font-size:1.05rem; color:var(--text-primary);"><a href="tel:01082476838" style="color:inherit; text-decoration:none;">010-8247-6838</a></div>
+                </div>
+              </div>
+
+              <div class="support-channel">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div style="font-size:0.8rem; color:var(--text-muted);">카카오톡 채널 상담</div>
+                  <div style="font-weight:700; font-size:1.05rem; color:var(--text-primary);">@GROWEASY_OFFICIAL</div>
+                </div>
+              </div>
+
+              <div class="support-channel">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <div style="font-size:0.8rem; color:var(--text-muted);">이메일 문의 (24시간 접수)</div>
+                  <div style="font-weight:700; font-size:1.05rem; color:var(--text-primary);"><a href="mailto:binhnt09102004@gmail.com" style="color:inherit; text-decoration:none;">binhnt09102004@gmail.com</a></div>
+                </div>
+              </div>
+
+              <div style="margin-top:28px;">
+                <button type="button" class="btn-primary btn-open-preorder" style="width:100%;" data-tier="SMART">
+                  사전예약 얼리버드 신청
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <span>GROW-EASY</span>
+            <span class="brand-badge">360°</span>
+          </a>
+          <p>
+            아이와 함께 자라는 한 벌, GROW-EASY 360°.<br>
+            불필요한 의류 폐기를 줄이고 부모에게 편안한 새벽 10분을 되돌려드립니다.
+          </p>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h5>메뉴 바로가기</h5>
+            <ul>
+              <li><a href="index.html">HOME (홈)</a></li>
+              <li><a href="product.html">PRODUCT (제품상세)</a></li>
+              <li><a href="about.html">ABOUT (브랜드스토리)</a></li>
+              <li><a href="contact.html">CONTACT (고객센터)</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h5>라인업</h5>
+            <ul>
+              <li><a href="product.html#pricingSection">BASIC (59,000원)</a></li>
+              <li><a href="product.html#pricingSection">SMART (79,000원)</a></li>
+              <li><a href="product.html#pricingSection">GIFT SET (99,000원)</a></li>
+              <li><a href="#" class="btn-open-preorder" data-tier="SMART">얼리버드 사전예약</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h5>고객지원</h5>
+            <ul>
+              <li>전화: <a href="tel:01082476838" style="color:inherit; text-decoration:none; font-weight:600;">010-8247-6838</a></li>
+              <li>이메일: <a href="mailto:binhnt09102004@gmail.com" style="color:inherit; text-decoration:none;">binhnt09102004@gmail.com</a></li>
+              <li>운영시간: 평일 09:30 ~ 17:30</li>
+              <li>점심시간: 12:30 ~ 13:30 (주말·공휴일 휴무)</li>
+              <li><a href="contact.html">자주 묻는 질문 (FAQ)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 GROW-EASY Inc. All rights reserved. | Tel: 010-8247-6838 | Email: binhnt09102004@gmail.com | 사업자등록번호: 2026-88-03600 | 대표: Binh Nguyen (GROW-EASY)
+        </div>
+        <div>
+          Designed for Gentle Parenting & Sustainable Tomorrow
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pre-order Modal Popup -->
+  <div class="modal-overlay" id="preorderModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="닫기">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="section-badge" style="margin-bottom:12px;">Pre-Order</span>
+      <h3 id="modalTitle" style="font-size:1.5rem; font-weight:800; color:var(--text-primary); margin-bottom:8px;">
+        GROW-EASY 360° 사전예약
+      </h3>
+      <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:20px;">
+        사전예약 고객 전원에게 <strong>20% 얼리버드 할인 혜택</strong>과 <strong>전용 세탁망</strong>을 증정합니다.
+      </p>
+
+      <form id="preorderForm">
+        <label class="form-label">옵션 패키지 선택</label>
+        <div class="tier-select-grid">
+          <label class="tier-radio-label">
+            <input type="radio" name="tier" value="BASIC">
+            <span class="t-name">BASIC</span>
+            <span class="t-price">59,000원</span>
+          </label>
+          <label class="tier-radio-label selected">
+            <input type="radio" name="tier" value="SMART" checked>
+            <span class="t-name">SMART ★</span>
+            <span class="t-price">79,000원</span>
+          </label>
+          <label class="tier-radio-label">
+            <input type="radio" name="tier" value="GIFT SET">
+            <span class="t-name">GIFT SET</span>
+            <span class="t-price">99,000원</span>
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="colorSelect">컬러 선택 (Colorways)</label>
+          <select id="colorSelect" name="color" class="form-select" required>
+            <option value="Soft Sage" selected>Soft Sage (소프트 세이지 - 메인 베스트)</option>
+            <option value="Cream Beige">Cream Beige (크림 베이지 - 웜 뉴트럴)</option>
+            <option value="Dusty Rose">Dusty Rose (더스티 로즈 - 감성 파스텔 핑크)</option>
+            <option value="Cloud Blue">Cloud Blue (클라우드 블루 - 캄 스카이 블루)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="parentNameInput">보호자 성함</label>
+          <input type="text" id="parentNameInput" name="parentName" class="form-input" placeholder="홍길동" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="phoneInput">연락처</label>
+          <input type="tel" id="phoneInput" name="phone" class="form-input" placeholder="010-0000-0000" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="emailInput">이메일 주소</label>
+          <input type="email" id="emailInput" name="email" class="form-input" placeholder="example@grow-easy.kr" required>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width:100%; padding:14px; margin-top:8px;" id="modalSubmitBtn">
+          GROW-EASY 360° 사전예약 신청하기
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <span class="toast-msg">사전예약 신청이 접수되었습니다.</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

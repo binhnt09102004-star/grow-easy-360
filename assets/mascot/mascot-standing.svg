@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" role="img" aria-label="GROW-EASY chibi mascot standing">
+<g stroke="#243E34" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="120" cy="278" rx="48" ry="10" fill="#A7B39B" opacity=".35" stroke="none"/>
+<circle cx="120" cy="84" r="68" fill="#F7C7AA"/><path d="M58 82C55 20 109 4 152 25c31 15 39 47 28 75-9-22-22-33-41-42-25 23-50 29-81 24z" fill="#4A352D"/><path d="M82 87q10-10 20 0M138 87q10-10 20 0" fill="none"/><circle cx="92" cy="86" r="4" fill="#243E34" stroke="none"/><circle cx="148" cy="86" r="4" fill="#243E34" stroke="none"/><path d="M112 104q8 7 16 0" fill="none"/><path d="M80 142q40-18 80 0l18 104q-58 28-116 0z" fill="#A7B39B"/><path d="M84 160l-25 58M156 160l25 58M98 244l-4 28M142 244l4 28" fill="none"/><path d="M55 214l15 8M185 214l-15 8M82 266q17 11 30 0M128 266q13 11 30 0" fill="#A7B39B"/>
+</g></svg>
